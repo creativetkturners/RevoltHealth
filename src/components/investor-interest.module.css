@@ -10,8 +10,6 @@
 .copy p:last-child { margin-bottom: 0; }
 .closingRule { display: block; width: calc(108 * var(--interest-unit)); height: calc(4 * var(--interest-unit)); background: #ff1018; margin: calc(43 * var(--interest-unit)) 0 0 calc(8 * var(--interest-unit)); }
 .statement { margin: calc(46 * var(--interest-unit)) 0 0 calc(8 * var(--interest-unit)); font-size: calc(34 * var(--interest-unit)); font-weight: 700; line-height: 1.25; letter-spacing: calc(5 * var(--interest-unit)); text-transform: uppercase; white-space: nowrap; }
-.manifesto { position: absolute; top: calc(55 * var(--interest-unit)); right: calc(22 * var(--interest-unit)); width: calc(145 * var(--interest-unit)); margin: 0; font-size: calc(17 * var(--interest-unit)); line-height: 1.5; letter-spacing: calc(3 * var(--interest-unit)); text-transform: uppercase; color: #e0e2e5; }
-.manifesto span { display: block; height: calc(4 * var(--interest-unit)); width: calc(55 * var(--interest-unit)); margin-top: calc(18 * var(--interest-unit)); background: #ff1018; }
 .disclaimer { position: absolute; bottom: calc(92 * var(--interest-unit)); left: calc(78 * var(--interest-unit)); max-width: calc(1000 * var(--interest-unit)); margin: 0; color: #b0b4bd; font-size: calc(15 * var(--interest-unit)); line-height: 1.5; letter-spacing: calc(.15 * var(--interest-unit)); }
 .form { margin: 0; padding: calc(41 * var(--interest-unit)) calc(60 * var(--interest-unit)) calc(50 * var(--interest-unit)); border: 1px solid #555b63; border-radius: calc(15 * var(--interest-unit)); background: linear-gradient(135deg, #1a1d20e8, #101214ee); box-shadow: 0 0 0 1px #ffffff08 inset; }
 .form h3 { margin: 0; font-size: calc(43 * var(--interest-unit)); line-height: 1.15; letter-spacing: calc(-1.8 * var(--interest-unit)); }
@@ -54,9 +52,6 @@
   .field input, .field select, .field textarea { font-size: 16px; height: 52px; padding: 13px 16px; border-radius: 6px; }
   .field textarea { height: 100px; min-height: 100px; }
   .form button { min-height: 56px; font-size: 18px; border-radius: 6px; }
-  .manifesto { position: static; width: auto; margin-top: 28px; font-size: 11px; letter-spacing: 2px; }
-  .manifesto br { display: none; }
-  .manifesto span { width: 40px; height: 2px; margin-top: 14px; }
   .disclaimer { position: static; margin-top: 32px; max-width: 700px; font-size: 12px; line-height: 1.6; }
 }
 @media (max-width: 650px) { .section { padding: 40px 24px; } .form { padding: 26px 22px; } .form h3 { font-size: 28px; } .copy { font-size: 18px; } }

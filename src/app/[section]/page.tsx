@@ -6,7 +6,7 @@ import { Header } from "@/components/header";
 const pages = {
   solutions: { title: "Healthcare solutions", eyebrow: "Consumer. Employer. Partner.", description: "A vertically integrated healthcare platform designed to reduce cost, confusion, and administrative friction across consumer, employer, and partner markets." },
   ecosystem: { title: "Our ecosystem", eyebrow: "One integrated alliance", description: "Five integrated brands. Multiple revenue channels. A distribution model built across consumer, employer, and affinity markets." },
-  impact: { title: "A healthier people. A stronger tomorrow.", eyebrow: "More than healthcare", description: "The alliance at a glance: $19M+ in premium sold, approximately 1,000 network members, and five integrated brands." },
+  impact: { title: "A healthier people. A stronger tomorrow.", eyebrow: "More than healthcare", description: "The alliance at a glance: $22M in premium sold, approximately 1,000 network members, and five integrated brands." },
   about: { title: "Revolt Healthcare Alliance", eyebrow: "Built for the new healthcare economy", description: "A vertically integrated healthcare platform connecting consumer, employer, and partner markets. More than healthcare. A stronger tomorrow." },
   quote: { title: "Let’s find your healthcare solution.", eyebrow: "Get a quote", description: "Speak with Revolt Healthcare Alliance about solutions for you, your organization, or your network." },
 } as const;

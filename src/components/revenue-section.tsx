@@ -53,6 +53,6 @@ export function RevenueSection() {
     <ul className={styles.benefits}>{benefits.map(benefit => <li key={benefit.title}>
       <div className={styles.benefitIcon}><Icon name={benefit.icon} /></div><div><h3>{benefit.title}</h3><p>{benefit.description}</p></div>
     </li>)}</ul>
-    <p className={styles.insurance}><span aria-hidden="true">$</span><span>Private health insurance is a key monetization lane across the Revolt ecosystem, not a separate Revolt brand.</span></p>
+    <p className={styles.insurance}><span aria-hidden="true">$</span><span>Private health insurance is a key monetization lane across the Revolt ecosystem.</span></p>
   </section>;
 }

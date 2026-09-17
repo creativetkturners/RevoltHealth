@@ -17,7 +17,6 @@ export function InvestorInterest() {
       <p className={styles.statement}>We’re not raising. We’re building.</p>
     </div>
     <InvestorForm />
-    <p className={styles.manifesto}>A<br /> healthier<br /> people<br /> a stronger<br /> tomorrow<span aria-hidden="true" /></p>
     <p className={styles.disclaimer}>Joining the investor list does not constitute an offer to sell, or a solicitation of an offer to purchase, any security.</p>
   </section>;
 }

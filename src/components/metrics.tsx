@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 type IconName = "growth" | "members" | "brands" | "channels" | "building";
 
 const metrics: { id: IconName; value: ReactNode; label: ReactNode; compact?: boolean }[] = [
-  { id: "growth", value: "$19M+", label: "In premium sold" },
+  { id: "growth", value: "$22M", label: "In premium sold" },
   { id: "members", value: "~1,000", label: "Network members" },
   { id: "brands", value: "5", label: <>Integrated<br />brands</> },
   { id: "channels", value: "Multiple", label: "Revenue channels", compact: true },
